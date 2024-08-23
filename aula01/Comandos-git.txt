@@ -1,0 +1,27 @@
+1. Verificar o Status dos Arquivos
+
+	git status
+
+Isso mostrará uma lista dos arquivos que foram modificados, adicionados ou deletados.
+
+2. Adicionar Arquivos ao Staging
+Antes de fazer o commit, você precisa adicionar os arquivos que deseja incluir no commit ao "staging area" (área de preparação):
+
+Para adicionar todos os arquivos modificados:
+
+	git add .
+
+Ou, se quiser adicionar arquivos específicos:
+	
+	git add caminho/para/arquivo
+	
+3. Fazer o Commit das Alterações
+Depois de adicionar os arquivos, você pode criar um commit com uma mensagem descritiva:
+	
+	git commit -m "Mensagem descritiva do commit"
+	
+4. Enviar as Alterações para o Repositório Remoto (Push)
+Por fim, envie as alterações para o repositório remoto no GitHub. 
+Se estiver trabalhando na branch principal (main ou master), o comando seria:
+
+	git push origin main
